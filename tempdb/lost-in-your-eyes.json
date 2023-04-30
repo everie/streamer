@@ -1,0 +1,23 @@
+{
+	"Artist": "Everie",
+	"Title": "Lost In Your Eyes",
+	"Album": "Lost In Your Eyes",
+	"Id": "lost-in-your-eyes",
+	"Length": "352",
+	"Comment": "Thanks for listening 💜",
+	"Tags": ["Wave", "Future Garage"],
+	"Parts": [
+		{
+			"Start": "0",
+			"End": "62",
+			"Description": "Intro"
+		},
+		{
+			"Start": "63",
+			"End": "102",
+			"Description": "Breaks"
+		}
+	],
+	"Cover": "Everie---Your-Eyes.jpg",
+	"File": "Everie_-_Lost_In_Your_Eyes.wav"
+}

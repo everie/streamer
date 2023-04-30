@@ -1,0 +1,23 @@
+{
+	"Artist": "Everie",
+	"Title": "We Were Beautiful",
+	"Album": "We Were Beautiful",
+	"Id": "we-were-beautiful",
+	"Length": "352",
+	"Comment": "Thanks for listening 💜",
+	"Tags": ["Wave", "Future Garage"],
+	"Parts": [
+		{
+			"Start": "0",
+			"End": "62",
+			"Description": "Intro"
+		},
+		{
+			"Start": "63",
+			"End": "102",
+			"Description": "Breaks"
+		}
+	],
+	"Cover": "Everie---Memory.jpg",
+	"File": "Everie_-_We_Were_Beautiful.wav"
+}

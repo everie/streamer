@@ -1,0 +1,74 @@
+<%- include('template/header'); -%>
+
+<div>
+    <!--
+    <a href="/track/narrated-in-neon">Narrated In Neon</a>
+    <a href="/track/the-blame">The Blame</a>
+    <a href="/track/lost-in-your-eyes">Lost In Your Eyes</a>
+    <a href="/track/we-were-beautiful">We Were Beautiful</a>
+    -->
+    <div class="track-link" ev-track="narrated-in-neon">
+        Narrated In Neon
+    </div>
+    <div class="track-link" ev-track="the-blame">
+        The Blame
+    </div>
+    <div class="track-link" ev-track="lost-in-your-eyes">
+        Lost In Your Eyes
+    </div>
+    <div class="track-link" ev-track="we-were-beautiful">
+        We Were Beautiful
+    </div>
+</div>
+
+<div id="colours">
+
+</div>
+<div>
+    <img id="cover" src="" />
+</div>
+<div id="cont">
+
+</div>
+<div id="peaks">
+
+</div>
+<div id="loader">
+
+</div>
+<script>
+
+
+    $(document).ready(event => {
+        console.log('loading', '<%= id %>');
+
+        $('.track-link').Clickable();
+        $('#peaks').on('paintable', function() {
+            $('.peak').css('background', gradient);
+        });
+
+
+    });
+
+    $.fn.Clickable = function() {
+        var e = $(this);
+
+        e.on('click', function() {
+            var id = $(this).attr('ev-track');
+
+            $.ReURL(id);
+            $.EvPLAY(id);
+        });
+    }
+
+    $.ReURL = function(id) {
+        var url = window.location;
+        window.history.pushState(null, null, id);
+    }
+
+    $('#loader').on('hide', function(event, on) {
+        console.log('we hide?', on);
+        $.EvLOAD(!on);
+    });
+</script>
+<%- include('template/footer'); -%>

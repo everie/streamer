@@ -1,0 +1,23 @@
+{
+	"Artist": "Everie",
+	"Title": "Narrated In Neon",
+	"Album": "Narrated In Neon",
+	"Id": "narrated-in-neon",
+	"Length": "352",
+	"Comment": "Thanks for listening 💜",
+	"Tags": ["Wave", "Future Garage"],
+	"Parts": [
+		{
+			"Start": "0",
+			"End": "62",
+			"Description": "Intro"
+		},
+		{
+			"Start": "63",
+			"End": "102",
+			"Description": "Breaks"
+		}
+	],
+	"Cover": "Everie---Narrated-In-Neon.jpg",
+	"File": "Everie_-_Narrated_In_Neon.wav"
+}

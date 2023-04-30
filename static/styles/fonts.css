@@ -1,0 +1,29 @@
+@font-face {
+    font-family: MarianinaThin;
+    src: url("../fonts/Marianina/Black Foundry - Marianina FY Thin.otf");
+}
+
+@font-face {
+    font-family: Marianina;
+    src: url("../fonts/Marianina/Black Foundry - Marianina FY Regular.otf");
+}
+
+@font-face {
+    font-family: MarianinaMedium;
+    src: url("../fonts/Marianina/Black Foundry - Marianina FY Medium.otf");
+}
+
+@font-face {
+    font-family: RubikThin;
+    src: url("../fonts/Rubik/Rubik-Light.ttf");
+}
+
+@font-face {
+    font-family: Rubik;
+    src: url("../fonts/Rubik/Rubik-Regular.ttf");
+}
+
+@font-face {
+    font-family: RubikMedium;
+    src: url("../fonts/Rubik/Rubik-Medium.ttf");
+}
